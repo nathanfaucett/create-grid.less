@@ -1,0 +1,23 @@
+{
+  "name": "create-grid.less",
+  "version": "0.0.1",
+  "description": "create grid helper functions for less",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanfaucett/create-grid.less.git"
+  },
+  "style": "src/index.less",
+  "keywords": [
+    "grid",
+    "grid.less",
+    "create-grid",
+    "create-grid.less",
+    "create-grid.css"
+  ],
+  "author": "Nathan Faucett",
+  "license": "BSD-2-Clause",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "clearfix.less": "nathanfaucett/clearfix.less"
+  }
+}

@@ -1,0 +1,66 @@
+@import "clearfix.less";
+
+
+.block {
+  .clearfix();
+  position: relative;
+  display: block;
+}
+
+.create-grid(@grid-columns, @max-width) {
+  .loop (@index) when (@index > 0) {
+    .block .grid-@{index} {
+      position: relative;
+      margin: 0;
+      width: ((@index / @grid-columns * 99.999) + 0%);
+      float: left;
+
+      @media (max-width: @max-width) {
+        width: 99.999%;
+        float: none;
+      }
+    }
+
+    .block .push-@{index} {
+      margin-left: ((@index / @grid-columns * 99.999) + 0%) * 1% !important;
+    }
+
+    .block .pull-@{index}{
+      margin-left: ((@index / @grid-columns * 99.999) + 0%) * -1% !important;
+    }
+
+    .loop(@index - 1);
+  }
+
+  .loop(0){}
+  .loop(@grid-columns);
+}
+
+.create-named-grid(@name, @grid-columns, @max-width) {
+  .loop (@index) when (@index > 0) {
+    .block .grid-@{name}-@{index} {
+      position: relative;
+      margin: 0;
+      width: ((@index / @grid-columns * 99.999) + 0%);
+      float: left;
+
+      @media (max-width: @max-width) {
+        width: 99.999%;
+        float: none;
+      }
+    }
+
+    .block .push-@{name}-@{index} {
+      margin-left: ((@index / @grid-columns * 99.999) + 0%) * 1% !important;
+    }
+
+    .block .pull-@{name}-@{index}{
+      margin-left: ((@index / @grid-columns * 99.999) + 0%) * -1% !important;
+    }
+  
+    .loop(@index - 1);
+  }
+
+  .loop(0){}
+  .loop(@grid-columns);
+}
