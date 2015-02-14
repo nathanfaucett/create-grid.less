@@ -12,6 +12,7 @@
     .block .grid-@{index} {
       width: 99.999%;
       float: none;
+      min-height: 1px;
     }
 
     @media (min-width: @min-width) {
@@ -46,6 +47,7 @@
         margin: 0;
         width: ((@index / @grid-columns * 99.999) + 0%);
         float: left;
+        min-height: 1px;
       }
 
       .block .push-@{name}-@{index} {
@@ -72,6 +74,7 @@
         margin: 0;
         width: ((@index / @grid-columns * 99.999) + 0%);
         float: left;
+        min-height: 1px;
       }
 
       .block .push-@{name}-@{index} {
