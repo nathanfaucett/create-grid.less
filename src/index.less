@@ -7,17 +7,19 @@
   display: block;
 }
 
-.create-grid(@grid-columns, @max-width) {
+.create-grid(@grid-columns, @min-width) {
   .loop (@index) when (@index > 0) {
     .block .grid-@{index} {
-      position: relative;
-      margin: 0;
-      width: ((@index / @grid-columns * 99.999) + 0%);
-      float: left;
+      width: 99.999%;
+      float: none;
+    }
 
-      @media (max-width: @max-width) {
-        width: 99.999%;
-        float: none;
+    @media (min-width: @min-width) {
+      .block .grid-@{index} {
+        position: relative;
+        margin: 0;
+        width: ((@index / @grid-columns * 99.999) + 0%);
+        float: left;
       }
     }
 
@@ -36,28 +38,51 @@
   .loop(@grid-columns);
 }
 
-.create-named-grid(@name, @grid-columns, @max-width) {
+.create-named-grid(@name, @grid-columns, @min-width, @max-width) {
   .loop (@index) when (@index > 0) {
-    .block .grid-@{name}-@{index} {
-      position: relative;
-      margin: 0;
-      width: ((@index / @grid-columns * 99.999) + 0%);
-      float: left;
+    @media (max-width: @max-width) and (min-width: @min-width) {
+      .block .grid-@{name}-@{index} {
+        position: relative;
+        margin: 0;
+        width: ((@index / @grid-columns * 99.999) + 0%);
+        float: left;
+      }
 
-      @media (max-width: @max-width) {
-        width: 99.999%;
-        float: none;
+      .block .push-@{name}-@{index} {
+        margin-left: ((@index / @grid-columns * 99.999) + 0%) * 1% !important;
+      }
+
+      .block .pull-@{name}-@{index}{
+        margin-left: ((@index / @grid-columns * 99.999) + 0%) * -1% !important;
+      }
+    }
+  
+    .loop(@index - 1);
+  }
+
+  .loop(0){}
+  .loop(@grid-columns);
+}
+
+.create-named-grid(@name, @grid-columns, @min-width) {
+  .loop (@index) when (@index > 0) {
+    @media (min-width: @min-width) {
+      .block .grid-@{name}-@{index} {
+        position: relative;
+        margin: 0;
+        width: ((@index / @grid-columns * 99.999) + 0%);
+        float: left;
+      }
+
+      .block .push-@{name}-@{index} {
+        margin-left: ((@index / @grid-columns * 99.999) + 0%) * 1% !important;
+      }
+
+      .block .pull-@{name}-@{index}{
+        margin-left: ((@index / @grid-columns * 99.999) + 0%) * -1% !important;
       }
     }
 
-    .block .push-@{name}-@{index} {
-      margin-left: ((@index / @grid-columns * 99.999) + 0%) * 1% !important;
-    }
-
-    .block .pull-@{name}-@{index}{
-      margin-left: ((@index / @grid-columns * 99.999) + 0%) * -1% !important;
-    }
-  
     .loop(@index - 1);
   }
 
