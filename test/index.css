@@ -253,8 +253,6 @@
   .block .pull-xs-12 {
     margin-left: -99.999% !important;
   }
-}
-@media (max-width: 480px) and (min-width: 0px) {
   .block .grid-xs-11 {
     position: relative;
     margin: 0;
@@ -268,8 +266,6 @@
   .block .pull-xs-11 {
     margin-left: -91.66575% !important;
   }
-}
-@media (max-width: 480px) and (min-width: 0px) {
   .block .grid-xs-10 {
     position: relative;
     margin: 0;
@@ -283,8 +279,6 @@
   .block .pull-xs-10 {
     margin-left: -83.3325% !important;
   }
-}
-@media (max-width: 480px) and (min-width: 0px) {
   .block .grid-xs-9 {
     position: relative;
     margin: 0;
@@ -298,8 +292,6 @@
   .block .pull-xs-9 {
     margin-left: -74.99925% !important;
   }
-}
-@media (max-width: 480px) and (min-width: 0px) {
   .block .grid-xs-8 {
     position: relative;
     margin: 0;
@@ -313,8 +305,6 @@
   .block .pull-xs-8 {
     margin-left: -66.666% !important;
   }
-}
-@media (max-width: 480px) and (min-width: 0px) {
   .block .grid-xs-7 {
     position: relative;
     margin: 0;
@@ -328,8 +318,6 @@
   .block .pull-xs-7 {
     margin-left: -58.33275% !important;
   }
-}
-@media (max-width: 480px) and (min-width: 0px) {
   .block .grid-xs-6 {
     position: relative;
     margin: 0;
@@ -343,8 +331,6 @@
   .block .pull-xs-6 {
     margin-left: -49.9995% !important;
   }
-}
-@media (max-width: 480px) and (min-width: 0px) {
   .block .grid-xs-5 {
     position: relative;
     margin: 0;
@@ -358,8 +344,6 @@
   .block .pull-xs-5 {
     margin-left: -41.66625% !important;
   }
-}
-@media (max-width: 480px) and (min-width: 0px) {
   .block .grid-xs-4 {
     position: relative;
     margin: 0;
@@ -373,8 +357,6 @@
   .block .pull-xs-4 {
     margin-left: -33.333% !important;
   }
-}
-@media (max-width: 480px) and (min-width: 0px) {
   .block .grid-xs-3 {
     position: relative;
     margin: 0;
@@ -388,8 +370,6 @@
   .block .pull-xs-3 {
     margin-left: -24.99975% !important;
   }
-}
-@media (max-width: 480px) and (min-width: 0px) {
   .block .grid-xs-2 {
     position: relative;
     margin: 0;
@@ -403,8 +383,6 @@
   .block .pull-xs-2 {
     margin-left: -16.6665% !important;
   }
-}
-@media (max-width: 480px) and (min-width: 0px) {
   .block .grid-xs-1 {
     position: relative;
     margin: 0;
@@ -433,8 +411,6 @@
   .block .pull-sm-12 {
     margin-left: -99.999% !important;
   }
-}
-@media (max-width: 768px) and (min-width: 480px) {
   .block .grid-sm-11 {
     position: relative;
     margin: 0;
@@ -448,8 +424,6 @@
   .block .pull-sm-11 {
     margin-left: -91.66575% !important;
   }
-}
-@media (max-width: 768px) and (min-width: 480px) {
   .block .grid-sm-10 {
     position: relative;
     margin: 0;
@@ -463,8 +437,6 @@
   .block .pull-sm-10 {
     margin-left: -83.3325% !important;
   }
-}
-@media (max-width: 768px) and (min-width: 480px) {
   .block .grid-sm-9 {
     position: relative;
     margin: 0;
@@ -478,8 +450,6 @@
   .block .pull-sm-9 {
     margin-left: -74.99925% !important;
   }
-}
-@media (max-width: 768px) and (min-width: 480px) {
   .block .grid-sm-8 {
     position: relative;
     margin: 0;
@@ -493,8 +463,6 @@
   .block .pull-sm-8 {
     margin-left: -66.666% !important;
   }
-}
-@media (max-width: 768px) and (min-width: 480px) {
   .block .grid-sm-7 {
     position: relative;
     margin: 0;
@@ -508,8 +476,6 @@
   .block .pull-sm-7 {
     margin-left: -58.33275% !important;
   }
-}
-@media (max-width: 768px) and (min-width: 480px) {
   .block .grid-sm-6 {
     position: relative;
     margin: 0;
@@ -523,8 +489,6 @@
   .block .pull-sm-6 {
     margin-left: -49.9995% !important;
   }
-}
-@media (max-width: 768px) and (min-width: 480px) {
   .block .grid-sm-5 {
     position: relative;
     margin: 0;
@@ -538,8 +502,6 @@
   .block .pull-sm-5 {
     margin-left: -41.66625% !important;
   }
-}
-@media (max-width: 768px) and (min-width: 480px) {
   .block .grid-sm-4 {
     position: relative;
     margin: 0;
@@ -553,8 +515,6 @@
   .block .pull-sm-4 {
     margin-left: -33.333% !important;
   }
-}
-@media (max-width: 768px) and (min-width: 480px) {
   .block .grid-sm-3 {
     position: relative;
     margin: 0;
@@ -568,8 +528,6 @@
   .block .pull-sm-3 {
     margin-left: -24.99975% !important;
   }
-}
-@media (max-width: 768px) and (min-width: 480px) {
   .block .grid-sm-2 {
     position: relative;
     margin: 0;
@@ -583,8 +541,6 @@
   .block .pull-sm-2 {
     margin-left: -16.6665% !important;
   }
-}
-@media (max-width: 768px) and (min-width: 480px) {
   .block .grid-sm-1 {
     position: relative;
     margin: 0;
@@ -613,8 +569,6 @@
   .block .pull-md-12 {
     margin-left: -99.999% !important;
   }
-}
-@media (max-width: 960px) and (min-width: 768px) {
   .block .grid-md-11 {
     position: relative;
     margin: 0;
@@ -628,8 +582,6 @@
   .block .pull-md-11 {
     margin-left: -91.66575% !important;
   }
-}
-@media (max-width: 960px) and (min-width: 768px) {
   .block .grid-md-10 {
     position: relative;
     margin: 0;
@@ -643,8 +595,6 @@
   .block .pull-md-10 {
     margin-left: -83.3325% !important;
   }
-}
-@media (max-width: 960px) and (min-width: 768px) {
   .block .grid-md-9 {
     position: relative;
     margin: 0;
@@ -658,8 +608,6 @@
   .block .pull-md-9 {
     margin-left: -74.99925% !important;
   }
-}
-@media (max-width: 960px) and (min-width: 768px) {
   .block .grid-md-8 {
     position: relative;
     margin: 0;
@@ -673,8 +621,6 @@
   .block .pull-md-8 {
     margin-left: -66.666% !important;
   }
-}
-@media (max-width: 960px) and (min-width: 768px) {
   .block .grid-md-7 {
     position: relative;
     margin: 0;
@@ -688,8 +634,6 @@
   .block .pull-md-7 {
     margin-left: -58.33275% !important;
   }
-}
-@media (max-width: 960px) and (min-width: 768px) {
   .block .grid-md-6 {
     position: relative;
     margin: 0;
@@ -703,8 +647,6 @@
   .block .pull-md-6 {
     margin-left: -49.9995% !important;
   }
-}
-@media (max-width: 960px) and (min-width: 768px) {
   .block .grid-md-5 {
     position: relative;
     margin: 0;
@@ -718,8 +660,6 @@
   .block .pull-md-5 {
     margin-left: -41.66625% !important;
   }
-}
-@media (max-width: 960px) and (min-width: 768px) {
   .block .grid-md-4 {
     position: relative;
     margin: 0;
@@ -733,8 +673,6 @@
   .block .pull-md-4 {
     margin-left: -33.333% !important;
   }
-}
-@media (max-width: 960px) and (min-width: 768px) {
   .block .grid-md-3 {
     position: relative;
     margin: 0;
@@ -748,8 +686,6 @@
   .block .pull-md-3 {
     margin-left: -24.99975% !important;
   }
-}
-@media (max-width: 960px) and (min-width: 768px) {
   .block .grid-md-2 {
     position: relative;
     margin: 0;
@@ -763,8 +699,6 @@
   .block .pull-md-2 {
     margin-left: -16.6665% !important;
   }
-}
-@media (max-width: 960px) and (min-width: 768px) {
   .block .grid-md-1 {
     position: relative;
     margin: 0;
@@ -793,8 +727,6 @@
   .block .pull-lg-12 {
     margin-left: -99.999% !important;
   }
-}
-@media (min-width: 960px) {
   .block .grid-lg-11 {
     position: relative;
     margin: 0;
@@ -808,8 +740,6 @@
   .block .pull-lg-11 {
     margin-left: -91.66575% !important;
   }
-}
-@media (min-width: 960px) {
   .block .grid-lg-10 {
     position: relative;
     margin: 0;
@@ -823,8 +753,6 @@
   .block .pull-lg-10 {
     margin-left: -83.3325% !important;
   }
-}
-@media (min-width: 960px) {
   .block .grid-lg-9 {
     position: relative;
     margin: 0;
@@ -838,8 +766,6 @@
   .block .pull-lg-9 {
     margin-left: -74.99925% !important;
   }
-}
-@media (min-width: 960px) {
   .block .grid-lg-8 {
     position: relative;
     margin: 0;
@@ -853,8 +779,6 @@
   .block .pull-lg-8 {
     margin-left: -66.666% !important;
   }
-}
-@media (min-width: 960px) {
   .block .grid-lg-7 {
     position: relative;
     margin: 0;
@@ -868,8 +792,6 @@
   .block .pull-lg-7 {
     margin-left: -58.33275% !important;
   }
-}
-@media (min-width: 960px) {
   .block .grid-lg-6 {
     position: relative;
     margin: 0;
@@ -883,8 +805,6 @@
   .block .pull-lg-6 {
     margin-left: -49.9995% !important;
   }
-}
-@media (min-width: 960px) {
   .block .grid-lg-5 {
     position: relative;
     margin: 0;
@@ -898,8 +818,6 @@
   .block .pull-lg-5 {
     margin-left: -41.66625% !important;
   }
-}
-@media (min-width: 960px) {
   .block .grid-lg-4 {
     position: relative;
     margin: 0;
@@ -913,8 +831,6 @@
   .block .pull-lg-4 {
     margin-left: -33.333% !important;
   }
-}
-@media (min-width: 960px) {
   .block .grid-lg-3 {
     position: relative;
     margin: 0;
@@ -928,8 +844,6 @@
   .block .pull-lg-3 {
     margin-left: -24.99975% !important;
   }
-}
-@media (min-width: 960px) {
   .block .grid-lg-2 {
     position: relative;
     margin: 0;
@@ -943,8 +857,6 @@
   .block .pull-lg-2 {
     margin-left: -16.6665% !important;
   }
-}
-@media (min-width: 960px) {
   .block .grid-lg-1 {
     position: relative;
     margin: 0;

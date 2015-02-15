@@ -40,8 +40,8 @@
 }
 
 .create-named-grid(@name, @grid-columns, @min-width, @max-width) {
-  .loop (@index) when (@index > 0) {
-    @media (max-width: @max-width) and (min-width: @min-width) {
+  @media (max-width: @max-width) and (min-width: @min-width) {
+    .loop (@index) when (@index > 0) {
       .block .grid-@{name}-@{index} {
         position: relative;
         margin: 0;
@@ -57,18 +57,18 @@
       .block .pull-@{name}-@{index}{
         margin-left: ((@index / @grid-columns * 99.999) + 0%) * -1% !important;
       }
-    }
-  
-    .loop(@index - 1);
-  }
 
-  .loop(0){}
-  .loop(@grid-columns);
+      .loop(@index - 1);
+    }
+
+    .loop(0){}
+    .loop(@grid-columns);
+  }
 }
 
 .create-named-grid(@name, @grid-columns, @min-width) {
-  .loop (@index) when (@index > 0) {
-    @media (min-width: @min-width) {
+  @media (min-width: @min-width) {
+    .loop (@index) when (@index > 0) {
       .block .grid-@{name}-@{index} {
         position: relative;
         margin: 0;
@@ -84,11 +84,11 @@
       .block .pull-@{name}-@{index}{
         margin-left: ((@index / @grid-columns * 99.999) + 0%) * -1% !important;
       }
+
+      .loop(@index - 1);
     }
 
-    .loop(@index - 1);
+    .loop(0){}
+    .loop(@grid-columns);
   }
-
-  .loop(0){}
-  .loop(@grid-columns);
 }
