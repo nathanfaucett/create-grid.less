@@ -7,38 +7,6 @@
   display: block;
 }
 
-.create-grid(@grid-columns, @min-width) {
-  .loop (@index) when (@index > 0) {
-    .block .grid-@{index} {
-      width: 99.999%;
-      float: none;
-      min-height: 1px;
-    }
-
-    @media (min-width: @min-width) {
-      .block .grid-@{index} {
-        position: relative;
-        margin: 0;
-        width: ((@index / @grid-columns * 99.999) + 0%);
-        float: left;
-      }
-    }
-
-    .block .push-@{index} {
-      margin-left: ((@index / @grid-columns * 99.999) + 0%) * 1% !important;
-    }
-
-    .block .pull-@{index}{
-      margin-left: ((@index / @grid-columns * 99.999) + 0%) * -1% !important;
-    }
-
-    .loop(@index - 1);
-  }
-
-  .loop(0){}
-  .loop(@grid-columns);
-}
-
 .create-named-grid(@name, @grid-columns, @min-width, @max-width) {
   @media (max-width: @max-width) and (min-width: @min-width) {
     .loop (@index) when (@index > 0) {
