@@ -1,7 +1,7 @@
 @import "clearfix.less";
 
 
-.block {
+.grid {
   .clearfix();
   position: relative;
   display: block;
@@ -10,7 +10,7 @@
 .create-named-grid(@name, @grid-columns, @min-width, @max-width) {
   @media (max-width: @max-width) and (min-width: @min-width) {
     .loop (@index) when (@index > 0) {
-      .block .grid-@{name}-@{index} {
+      .grid .grid-@{name}-@{index} {
         position: relative;
         margin: 0;
         width: ((@index / @grid-columns * 99.999) + 0%);
@@ -18,11 +18,11 @@
         min-height: 1px;
       }
 
-      .block .push-@{name}-@{index} {
+      .grid .push-@{name}-@{index} {
         margin-left: ((@index / @grid-columns * 99.999) + 0%) * 1% !important;
       }
 
-      .block .pull-@{name}-@{index}{
+      .grid .pull-@{name}-@{index}{
         margin-left: ((@index / @grid-columns * 99.999) + 0%) * -1% !important;
       }
 
@@ -37,7 +37,7 @@
 .create-named-grid(@name, @grid-columns, @min-width) {
   @media (min-width: @min-width) {
     .loop (@index) when (@index > 0) {
-      .block .grid-@{name}-@{index} {
+      .grid .grid-@{name}-@{index} {
         position: relative;
         margin: 0;
         width: ((@index / @grid-columns * 99.999) + 0%);
@@ -45,11 +45,11 @@
         min-height: 1px;
       }
 
-      .block .push-@{name}-@{index} {
+      .grid .push-@{name}-@{index} {
         margin-left: ((@index / @grid-columns * 99.999) + 0%) * 1% !important;
       }
 
-      .block .pull-@{name}-@{index}{
+      .grid .pull-@{name}-@{index}{
         margin-left: ((@index / @grid-columns * 99.999) + 0%) * -1% !important;
       }
 

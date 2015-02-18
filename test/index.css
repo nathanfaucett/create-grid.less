@@ -1,645 +1,645 @@
-.block {
+.grid {
   *zoom: 1;
   position: relative;
   display: block;
 }
-.block:before,
-.block:after {
+.grid:before,
+.grid:after {
   content: "";
   display: table;
 }
-.block:after {
+.grid:after {
   clear: both;
 }
 @media (max-width: 480px) and (min-width: 0px) {
-  .block .grid-xs-12 {
+  .grid .grid-xs-12 {
     position: relative;
     margin: 0;
     width: 99.999%;
     float: left;
     min-height: 1px;
   }
-  .block .push-xs-12 {
+  .grid .push-xs-12 {
     margin-left: 99.999% !important;
   }
-  .block .pull-xs-12 {
+  .grid .pull-xs-12 {
     margin-left: -99.999% !important;
   }
-  .block .grid-xs-11 {
+  .grid .grid-xs-11 {
     position: relative;
     margin: 0;
     width: 91.66575%;
     float: left;
     min-height: 1px;
   }
-  .block .push-xs-11 {
+  .grid .push-xs-11 {
     margin-left: 91.66575% !important;
   }
-  .block .pull-xs-11 {
+  .grid .pull-xs-11 {
     margin-left: -91.66575% !important;
   }
-  .block .grid-xs-10 {
+  .grid .grid-xs-10 {
     position: relative;
     margin: 0;
     width: 83.3325%;
     float: left;
     min-height: 1px;
   }
-  .block .push-xs-10 {
+  .grid .push-xs-10 {
     margin-left: 83.3325% !important;
   }
-  .block .pull-xs-10 {
+  .grid .pull-xs-10 {
     margin-left: -83.3325% !important;
   }
-  .block .grid-xs-9 {
+  .grid .grid-xs-9 {
     position: relative;
     margin: 0;
     width: 74.99925%;
     float: left;
     min-height: 1px;
   }
-  .block .push-xs-9 {
+  .grid .push-xs-9 {
     margin-left: 74.99925% !important;
   }
-  .block .pull-xs-9 {
+  .grid .pull-xs-9 {
     margin-left: -74.99925% !important;
   }
-  .block .grid-xs-8 {
+  .grid .grid-xs-8 {
     position: relative;
     margin: 0;
     width: 66.666%;
     float: left;
     min-height: 1px;
   }
-  .block .push-xs-8 {
+  .grid .push-xs-8 {
     margin-left: 66.666% !important;
   }
-  .block .pull-xs-8 {
+  .grid .pull-xs-8 {
     margin-left: -66.666% !important;
   }
-  .block .grid-xs-7 {
+  .grid .grid-xs-7 {
     position: relative;
     margin: 0;
     width: 58.33275%;
     float: left;
     min-height: 1px;
   }
-  .block .push-xs-7 {
+  .grid .push-xs-7 {
     margin-left: 58.33275% !important;
   }
-  .block .pull-xs-7 {
+  .grid .pull-xs-7 {
     margin-left: -58.33275% !important;
   }
-  .block .grid-xs-6 {
+  .grid .grid-xs-6 {
     position: relative;
     margin: 0;
     width: 49.9995%;
     float: left;
     min-height: 1px;
   }
-  .block .push-xs-6 {
+  .grid .push-xs-6 {
     margin-left: 49.9995% !important;
   }
-  .block .pull-xs-6 {
+  .grid .pull-xs-6 {
     margin-left: -49.9995% !important;
   }
-  .block .grid-xs-5 {
+  .grid .grid-xs-5 {
     position: relative;
     margin: 0;
     width: 41.66625%;
     float: left;
     min-height: 1px;
   }
-  .block .push-xs-5 {
+  .grid .push-xs-5 {
     margin-left: 41.66625% !important;
   }
-  .block .pull-xs-5 {
+  .grid .pull-xs-5 {
     margin-left: -41.66625% !important;
   }
-  .block .grid-xs-4 {
+  .grid .grid-xs-4 {
     position: relative;
     margin: 0;
     width: 33.333%;
     float: left;
     min-height: 1px;
   }
-  .block .push-xs-4 {
+  .grid .push-xs-4 {
     margin-left: 33.333% !important;
   }
-  .block .pull-xs-4 {
+  .grid .pull-xs-4 {
     margin-left: -33.333% !important;
   }
-  .block .grid-xs-3 {
+  .grid .grid-xs-3 {
     position: relative;
     margin: 0;
     width: 24.99975%;
     float: left;
     min-height: 1px;
   }
-  .block .push-xs-3 {
+  .grid .push-xs-3 {
     margin-left: 24.99975% !important;
   }
-  .block .pull-xs-3 {
+  .grid .pull-xs-3 {
     margin-left: -24.99975% !important;
   }
-  .block .grid-xs-2 {
+  .grid .grid-xs-2 {
     position: relative;
     margin: 0;
     width: 16.6665%;
     float: left;
     min-height: 1px;
   }
-  .block .push-xs-2 {
+  .grid .push-xs-2 {
     margin-left: 16.6665% !important;
   }
-  .block .pull-xs-2 {
+  .grid .pull-xs-2 {
     margin-left: -16.6665% !important;
   }
-  .block .grid-xs-1 {
+  .grid .grid-xs-1 {
     position: relative;
     margin: 0;
     width: 8.33325%;
     float: left;
     min-height: 1px;
   }
-  .block .push-xs-1 {
+  .grid .push-xs-1 {
     margin-left: 8.33325% !important;
   }
-  .block .pull-xs-1 {
+  .grid .pull-xs-1 {
     margin-left: -8.33325% !important;
   }
 }
 @media (max-width: 768px) and (min-width: 480px) {
-  .block .grid-sm-12 {
+  .grid .grid-sm-12 {
     position: relative;
     margin: 0;
     width: 99.999%;
     float: left;
     min-height: 1px;
   }
-  .block .push-sm-12 {
+  .grid .push-sm-12 {
     margin-left: 99.999% !important;
   }
-  .block .pull-sm-12 {
+  .grid .pull-sm-12 {
     margin-left: -99.999% !important;
   }
-  .block .grid-sm-11 {
+  .grid .grid-sm-11 {
     position: relative;
     margin: 0;
     width: 91.66575%;
     float: left;
     min-height: 1px;
   }
-  .block .push-sm-11 {
+  .grid .push-sm-11 {
     margin-left: 91.66575% !important;
   }
-  .block .pull-sm-11 {
+  .grid .pull-sm-11 {
     margin-left: -91.66575% !important;
   }
-  .block .grid-sm-10 {
+  .grid .grid-sm-10 {
     position: relative;
     margin: 0;
     width: 83.3325%;
     float: left;
     min-height: 1px;
   }
-  .block .push-sm-10 {
+  .grid .push-sm-10 {
     margin-left: 83.3325% !important;
   }
-  .block .pull-sm-10 {
+  .grid .pull-sm-10 {
     margin-left: -83.3325% !important;
   }
-  .block .grid-sm-9 {
+  .grid .grid-sm-9 {
     position: relative;
     margin: 0;
     width: 74.99925%;
     float: left;
     min-height: 1px;
   }
-  .block .push-sm-9 {
+  .grid .push-sm-9 {
     margin-left: 74.99925% !important;
   }
-  .block .pull-sm-9 {
+  .grid .pull-sm-9 {
     margin-left: -74.99925% !important;
   }
-  .block .grid-sm-8 {
+  .grid .grid-sm-8 {
     position: relative;
     margin: 0;
     width: 66.666%;
     float: left;
     min-height: 1px;
   }
-  .block .push-sm-8 {
+  .grid .push-sm-8 {
     margin-left: 66.666% !important;
   }
-  .block .pull-sm-8 {
+  .grid .pull-sm-8 {
     margin-left: -66.666% !important;
   }
-  .block .grid-sm-7 {
+  .grid .grid-sm-7 {
     position: relative;
     margin: 0;
     width: 58.33275%;
     float: left;
     min-height: 1px;
   }
-  .block .push-sm-7 {
+  .grid .push-sm-7 {
     margin-left: 58.33275% !important;
   }
-  .block .pull-sm-7 {
+  .grid .pull-sm-7 {
     margin-left: -58.33275% !important;
   }
-  .block .grid-sm-6 {
+  .grid .grid-sm-6 {
     position: relative;
     margin: 0;
     width: 49.9995%;
     float: left;
     min-height: 1px;
   }
-  .block .push-sm-6 {
+  .grid .push-sm-6 {
     margin-left: 49.9995% !important;
   }
-  .block .pull-sm-6 {
+  .grid .pull-sm-6 {
     margin-left: -49.9995% !important;
   }
-  .block .grid-sm-5 {
+  .grid .grid-sm-5 {
     position: relative;
     margin: 0;
     width: 41.66625%;
     float: left;
     min-height: 1px;
   }
-  .block .push-sm-5 {
+  .grid .push-sm-5 {
     margin-left: 41.66625% !important;
   }
-  .block .pull-sm-5 {
+  .grid .pull-sm-5 {
     margin-left: -41.66625% !important;
   }
-  .block .grid-sm-4 {
+  .grid .grid-sm-4 {
     position: relative;
     margin: 0;
     width: 33.333%;
     float: left;
     min-height: 1px;
   }
-  .block .push-sm-4 {
+  .grid .push-sm-4 {
     margin-left: 33.333% !important;
   }
-  .block .pull-sm-4 {
+  .grid .pull-sm-4 {
     margin-left: -33.333% !important;
   }
-  .block .grid-sm-3 {
+  .grid .grid-sm-3 {
     position: relative;
     margin: 0;
     width: 24.99975%;
     float: left;
     min-height: 1px;
   }
-  .block .push-sm-3 {
+  .grid .push-sm-3 {
     margin-left: 24.99975% !important;
   }
-  .block .pull-sm-3 {
+  .grid .pull-sm-3 {
     margin-left: -24.99975% !important;
   }
-  .block .grid-sm-2 {
+  .grid .grid-sm-2 {
     position: relative;
     margin: 0;
     width: 16.6665%;
     float: left;
     min-height: 1px;
   }
-  .block .push-sm-2 {
+  .grid .push-sm-2 {
     margin-left: 16.6665% !important;
   }
-  .block .pull-sm-2 {
+  .grid .pull-sm-2 {
     margin-left: -16.6665% !important;
   }
-  .block .grid-sm-1 {
+  .grid .grid-sm-1 {
     position: relative;
     margin: 0;
     width: 8.33325%;
     float: left;
     min-height: 1px;
   }
-  .block .push-sm-1 {
+  .grid .push-sm-1 {
     margin-left: 8.33325% !important;
   }
-  .block .pull-sm-1 {
+  .grid .pull-sm-1 {
     margin-left: -8.33325% !important;
   }
 }
 @media (max-width: 960px) and (min-width: 768px) {
-  .block .grid-md-12 {
+  .grid .grid-md-12 {
     position: relative;
     margin: 0;
     width: 99.999%;
     float: left;
     min-height: 1px;
   }
-  .block .push-md-12 {
+  .grid .push-md-12 {
     margin-left: 99.999% !important;
   }
-  .block .pull-md-12 {
+  .grid .pull-md-12 {
     margin-left: -99.999% !important;
   }
-  .block .grid-md-11 {
+  .grid .grid-md-11 {
     position: relative;
     margin: 0;
     width: 91.66575%;
     float: left;
     min-height: 1px;
   }
-  .block .push-md-11 {
+  .grid .push-md-11 {
     margin-left: 91.66575% !important;
   }
-  .block .pull-md-11 {
+  .grid .pull-md-11 {
     margin-left: -91.66575% !important;
   }
-  .block .grid-md-10 {
+  .grid .grid-md-10 {
     position: relative;
     margin: 0;
     width: 83.3325%;
     float: left;
     min-height: 1px;
   }
-  .block .push-md-10 {
+  .grid .push-md-10 {
     margin-left: 83.3325% !important;
   }
-  .block .pull-md-10 {
+  .grid .pull-md-10 {
     margin-left: -83.3325% !important;
   }
-  .block .grid-md-9 {
+  .grid .grid-md-9 {
     position: relative;
     margin: 0;
     width: 74.99925%;
     float: left;
     min-height: 1px;
   }
-  .block .push-md-9 {
+  .grid .push-md-9 {
     margin-left: 74.99925% !important;
   }
-  .block .pull-md-9 {
+  .grid .pull-md-9 {
     margin-left: -74.99925% !important;
   }
-  .block .grid-md-8 {
+  .grid .grid-md-8 {
     position: relative;
     margin: 0;
     width: 66.666%;
     float: left;
     min-height: 1px;
   }
-  .block .push-md-8 {
+  .grid .push-md-8 {
     margin-left: 66.666% !important;
   }
-  .block .pull-md-8 {
+  .grid .pull-md-8 {
     margin-left: -66.666% !important;
   }
-  .block .grid-md-7 {
+  .grid .grid-md-7 {
     position: relative;
     margin: 0;
     width: 58.33275%;
     float: left;
     min-height: 1px;
   }
-  .block .push-md-7 {
+  .grid .push-md-7 {
     margin-left: 58.33275% !important;
   }
-  .block .pull-md-7 {
+  .grid .pull-md-7 {
     margin-left: -58.33275% !important;
   }
-  .block .grid-md-6 {
+  .grid .grid-md-6 {
     position: relative;
     margin: 0;
     width: 49.9995%;
     float: left;
     min-height: 1px;
   }
-  .block .push-md-6 {
+  .grid .push-md-6 {
     margin-left: 49.9995% !important;
   }
-  .block .pull-md-6 {
+  .grid .pull-md-6 {
     margin-left: -49.9995% !important;
   }
-  .block .grid-md-5 {
+  .grid .grid-md-5 {
     position: relative;
     margin: 0;
     width: 41.66625%;
     float: left;
     min-height: 1px;
   }
-  .block .push-md-5 {
+  .grid .push-md-5 {
     margin-left: 41.66625% !important;
   }
-  .block .pull-md-5 {
+  .grid .pull-md-5 {
     margin-left: -41.66625% !important;
   }
-  .block .grid-md-4 {
+  .grid .grid-md-4 {
     position: relative;
     margin: 0;
     width: 33.333%;
     float: left;
     min-height: 1px;
   }
-  .block .push-md-4 {
+  .grid .push-md-4 {
     margin-left: 33.333% !important;
   }
-  .block .pull-md-4 {
+  .grid .pull-md-4 {
     margin-left: -33.333% !important;
   }
-  .block .grid-md-3 {
+  .grid .grid-md-3 {
     position: relative;
     margin: 0;
     width: 24.99975%;
     float: left;
     min-height: 1px;
   }
-  .block .push-md-3 {
+  .grid .push-md-3 {
     margin-left: 24.99975% !important;
   }
-  .block .pull-md-3 {
+  .grid .pull-md-3 {
     margin-left: -24.99975% !important;
   }
-  .block .grid-md-2 {
+  .grid .grid-md-2 {
     position: relative;
     margin: 0;
     width: 16.6665%;
     float: left;
     min-height: 1px;
   }
-  .block .push-md-2 {
+  .grid .push-md-2 {
     margin-left: 16.6665% !important;
   }
-  .block .pull-md-2 {
+  .grid .pull-md-2 {
     margin-left: -16.6665% !important;
   }
-  .block .grid-md-1 {
+  .grid .grid-md-1 {
     position: relative;
     margin: 0;
     width: 8.33325%;
     float: left;
     min-height: 1px;
   }
-  .block .push-md-1 {
+  .grid .push-md-1 {
     margin-left: 8.33325% !important;
   }
-  .block .pull-md-1 {
+  .grid .pull-md-1 {
     margin-left: -8.33325% !important;
   }
 }
 @media (min-width: 960px) {
-  .block .grid-lg-12 {
+  .grid .grid-lg-12 {
     position: relative;
     margin: 0;
     width: 99.999%;
     float: left;
     min-height: 1px;
   }
-  .block .push-lg-12 {
+  .grid .push-lg-12 {
     margin-left: 99.999% !important;
   }
-  .block .pull-lg-12 {
+  .grid .pull-lg-12 {
     margin-left: -99.999% !important;
   }
-  .block .grid-lg-11 {
+  .grid .grid-lg-11 {
     position: relative;
     margin: 0;
     width: 91.66575%;
     float: left;
     min-height: 1px;
   }
-  .block .push-lg-11 {
+  .grid .push-lg-11 {
     margin-left: 91.66575% !important;
   }
-  .block .pull-lg-11 {
+  .grid .pull-lg-11 {
     margin-left: -91.66575% !important;
   }
-  .block .grid-lg-10 {
+  .grid .grid-lg-10 {
     position: relative;
     margin: 0;
     width: 83.3325%;
     float: left;
     min-height: 1px;
   }
-  .block .push-lg-10 {
+  .grid .push-lg-10 {
     margin-left: 83.3325% !important;
   }
-  .block .pull-lg-10 {
+  .grid .pull-lg-10 {
     margin-left: -83.3325% !important;
   }
-  .block .grid-lg-9 {
+  .grid .grid-lg-9 {
     position: relative;
     margin: 0;
     width: 74.99925%;
     float: left;
     min-height: 1px;
   }
-  .block .push-lg-9 {
+  .grid .push-lg-9 {
     margin-left: 74.99925% !important;
   }
-  .block .pull-lg-9 {
+  .grid .pull-lg-9 {
     margin-left: -74.99925% !important;
   }
-  .block .grid-lg-8 {
+  .grid .grid-lg-8 {
     position: relative;
     margin: 0;
     width: 66.666%;
     float: left;
     min-height: 1px;
   }
-  .block .push-lg-8 {
+  .grid .push-lg-8 {
     margin-left: 66.666% !important;
   }
-  .block .pull-lg-8 {
+  .grid .pull-lg-8 {
     margin-left: -66.666% !important;
   }
-  .block .grid-lg-7 {
+  .grid .grid-lg-7 {
     position: relative;
     margin: 0;
     width: 58.33275%;
     float: left;
     min-height: 1px;
   }
-  .block .push-lg-7 {
+  .grid .push-lg-7 {
     margin-left: 58.33275% !important;
   }
-  .block .pull-lg-7 {
+  .grid .pull-lg-7 {
     margin-left: -58.33275% !important;
   }
-  .block .grid-lg-6 {
+  .grid .grid-lg-6 {
     position: relative;
     margin: 0;
     width: 49.9995%;
     float: left;
     min-height: 1px;
   }
-  .block .push-lg-6 {
+  .grid .push-lg-6 {
     margin-left: 49.9995% !important;
   }
-  .block .pull-lg-6 {
+  .grid .pull-lg-6 {
     margin-left: -49.9995% !important;
   }
-  .block .grid-lg-5 {
+  .grid .grid-lg-5 {
     position: relative;
     margin: 0;
     width: 41.66625%;
     float: left;
     min-height: 1px;
   }
-  .block .push-lg-5 {
+  .grid .push-lg-5 {
     margin-left: 41.66625% !important;
   }
-  .block .pull-lg-5 {
+  .grid .pull-lg-5 {
     margin-left: -41.66625% !important;
   }
-  .block .grid-lg-4 {
+  .grid .grid-lg-4 {
     position: relative;
     margin: 0;
     width: 33.333%;
     float: left;
     min-height: 1px;
   }
-  .block .push-lg-4 {
+  .grid .push-lg-4 {
     margin-left: 33.333% !important;
   }
-  .block .pull-lg-4 {
+  .grid .pull-lg-4 {
     margin-left: -33.333% !important;
   }
-  .block .grid-lg-3 {
+  .grid .grid-lg-3 {
     position: relative;
     margin: 0;
     width: 24.99975%;
     float: left;
     min-height: 1px;
   }
-  .block .push-lg-3 {
+  .grid .push-lg-3 {
     margin-left: 24.99975% !important;
   }
-  .block .pull-lg-3 {
+  .grid .pull-lg-3 {
     margin-left: -24.99975% !important;
   }
-  .block .grid-lg-2 {
+  .grid .grid-lg-2 {
     position: relative;
     margin: 0;
     width: 16.6665%;
     float: left;
     min-height: 1px;
   }
-  .block .push-lg-2 {
+  .grid .push-lg-2 {
     margin-left: 16.6665% !important;
   }
-  .block .pull-lg-2 {
+  .grid .pull-lg-2 {
     margin-left: -16.6665% !important;
   }
-  .block .grid-lg-1 {
+  .grid .grid-lg-1 {
     position: relative;
     margin: 0;
     width: 8.33325%;
     float: left;
     min-height: 1px;
   }
-  .block .push-lg-1 {
+  .grid .push-lg-1 {
     margin-left: 8.33325% !important;
   }
-  .block .pull-lg-1 {
+  .grid .pull-lg-1 {
     margin-left: -8.33325% !important;
   }
 }
