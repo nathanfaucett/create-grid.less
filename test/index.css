@@ -1,6 +1,7 @@
 .grid {
   *zoom: 1;
   display: block;
+  position: relative;
 }
 .grid:before,
 .grid:after {
@@ -12,15 +13,16 @@
 }
 html,
 body {
-  padding: 0;
+  padding: 2px;
   margin: 0;
 }
 @media (min-width: 0px) {
   .grid .grid-xs-12 {
+    display: block;
+    position: relative;
     width: 99.999%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -31,10 +33,11 @@ body {
     margin-left: -99.999%;
   }
   .grid .grid-xs-11 {
+    display: block;
+    position: relative;
     width: 91.66575%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -45,10 +48,11 @@ body {
     margin-left: -91.66575%;
   }
   .grid .grid-xs-10 {
+    display: block;
+    position: relative;
     width: 83.3325%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -59,10 +63,11 @@ body {
     margin-left: -83.3325%;
   }
   .grid .grid-xs-9 {
+    display: block;
+    position: relative;
     width: 74.99925%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -73,10 +78,11 @@ body {
     margin-left: -74.99925%;
   }
   .grid .grid-xs-8 {
+    display: block;
+    position: relative;
     width: 66.666%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -87,10 +93,11 @@ body {
     margin-left: -66.666%;
   }
   .grid .grid-xs-7 {
+    display: block;
+    position: relative;
     width: 58.33275%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -101,10 +108,11 @@ body {
     margin-left: -58.33275%;
   }
   .grid .grid-xs-6 {
+    display: block;
+    position: relative;
     width: 49.9995%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -115,10 +123,11 @@ body {
     margin-left: -49.9995%;
   }
   .grid .grid-xs-5 {
+    display: block;
+    position: relative;
     width: 41.66625%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -129,10 +138,11 @@ body {
     margin-left: -41.66625%;
   }
   .grid .grid-xs-4 {
+    display: block;
+    position: relative;
     width: 33.333%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -143,10 +153,11 @@ body {
     margin-left: -33.333%;
   }
   .grid .grid-xs-3 {
+    display: block;
+    position: relative;
     width: 24.99975%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -157,10 +168,11 @@ body {
     margin-left: -24.99975%;
   }
   .grid .grid-xs-2 {
+    display: block;
+    position: relative;
     width: 16.6665%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -171,10 +183,11 @@ body {
     margin-left: -16.6665%;
   }
   .grid .grid-xs-1 {
+    display: block;
+    position: relative;
     width: 8.33325%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -187,10 +200,11 @@ body {
 }
 @media (min-width: 360px) {
   .grid .grid-sm-12 {
+    display: block;
+    position: relative;
     width: 99.999%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -201,10 +215,11 @@ body {
     margin-left: -99.999%;
   }
   .grid .grid-sm-11 {
+    display: block;
+    position: relative;
     width: 91.66575%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -215,10 +230,11 @@ body {
     margin-left: -91.66575%;
   }
   .grid .grid-sm-10 {
+    display: block;
+    position: relative;
     width: 83.3325%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -229,10 +245,11 @@ body {
     margin-left: -83.3325%;
   }
   .grid .grid-sm-9 {
+    display: block;
+    position: relative;
     width: 74.99925%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -243,10 +260,11 @@ body {
     margin-left: -74.99925%;
   }
   .grid .grid-sm-8 {
+    display: block;
+    position: relative;
     width: 66.666%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -257,10 +275,11 @@ body {
     margin-left: -66.666%;
   }
   .grid .grid-sm-7 {
+    display: block;
+    position: relative;
     width: 58.33275%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -271,10 +290,11 @@ body {
     margin-left: -58.33275%;
   }
   .grid .grid-sm-6 {
+    display: block;
+    position: relative;
     width: 49.9995%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -285,10 +305,11 @@ body {
     margin-left: -49.9995%;
   }
   .grid .grid-sm-5 {
+    display: block;
+    position: relative;
     width: 41.66625%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -299,10 +320,11 @@ body {
     margin-left: -41.66625%;
   }
   .grid .grid-sm-4 {
+    display: block;
+    position: relative;
     width: 33.333%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -313,10 +335,11 @@ body {
     margin-left: -33.333%;
   }
   .grid .grid-sm-3 {
+    display: block;
+    position: relative;
     width: 24.99975%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -327,10 +350,11 @@ body {
     margin-left: -24.99975%;
   }
   .grid .grid-sm-2 {
+    display: block;
+    position: relative;
     width: 16.6665%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -341,10 +365,11 @@ body {
     margin-left: -16.6665%;
   }
   .grid .grid-sm-1 {
+    display: block;
+    position: relative;
     width: 8.33325%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -357,10 +382,11 @@ body {
 }
 @media (min-width: 640px) {
   .grid .grid-md-12 {
+    display: block;
+    position: relative;
     width: 99.999%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -371,10 +397,11 @@ body {
     margin-left: -99.999%;
   }
   .grid .grid-md-11 {
+    display: block;
+    position: relative;
     width: 91.66575%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -385,10 +412,11 @@ body {
     margin-left: -91.66575%;
   }
   .grid .grid-md-10 {
+    display: block;
+    position: relative;
     width: 83.3325%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -399,10 +427,11 @@ body {
     margin-left: -83.3325%;
   }
   .grid .grid-md-9 {
+    display: block;
+    position: relative;
     width: 74.99925%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -413,10 +442,11 @@ body {
     margin-left: -74.99925%;
   }
   .grid .grid-md-8 {
+    display: block;
+    position: relative;
     width: 66.666%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -427,10 +457,11 @@ body {
     margin-left: -66.666%;
   }
   .grid .grid-md-7 {
+    display: block;
+    position: relative;
     width: 58.33275%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -441,10 +472,11 @@ body {
     margin-left: -58.33275%;
   }
   .grid .grid-md-6 {
+    display: block;
+    position: relative;
     width: 49.9995%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -455,10 +487,11 @@ body {
     margin-left: -49.9995%;
   }
   .grid .grid-md-5 {
+    display: block;
+    position: relative;
     width: 41.66625%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -469,10 +502,11 @@ body {
     margin-left: -41.66625%;
   }
   .grid .grid-md-4 {
+    display: block;
+    position: relative;
     width: 33.333%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -483,10 +517,11 @@ body {
     margin-left: -33.333%;
   }
   .grid .grid-md-3 {
+    display: block;
+    position: relative;
     width: 24.99975%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -497,10 +532,11 @@ body {
     margin-left: -24.99975%;
   }
   .grid .grid-md-2 {
+    display: block;
+    position: relative;
     width: 16.6665%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -511,10 +547,11 @@ body {
     margin-left: -16.6665%;
   }
   .grid .grid-md-1 {
+    display: block;
+    position: relative;
     width: 8.33325%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -527,10 +564,11 @@ body {
 }
 @media (min-width: 800px) {
   .grid .grid-lg-12 {
+    display: block;
+    position: relative;
     width: 99.999%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -541,10 +579,11 @@ body {
     margin-left: -99.999%;
   }
   .grid .grid-lg-11 {
+    display: block;
+    position: relative;
     width: 91.66575%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -555,10 +594,11 @@ body {
     margin-left: -91.66575%;
   }
   .grid .grid-lg-10 {
+    display: block;
+    position: relative;
     width: 83.3325%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -569,10 +609,11 @@ body {
     margin-left: -83.3325%;
   }
   .grid .grid-lg-9 {
+    display: block;
+    position: relative;
     width: 74.99925%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -583,10 +624,11 @@ body {
     margin-left: -74.99925%;
   }
   .grid .grid-lg-8 {
+    display: block;
+    position: relative;
     width: 66.666%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -597,10 +639,11 @@ body {
     margin-left: -66.666%;
   }
   .grid .grid-lg-7 {
+    display: block;
+    position: relative;
     width: 58.33275%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -611,10 +654,11 @@ body {
     margin-left: -58.33275%;
   }
   .grid .grid-lg-6 {
+    display: block;
+    position: relative;
     width: 49.9995%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -625,10 +669,11 @@ body {
     margin-left: -49.9995%;
   }
   .grid .grid-lg-5 {
+    display: block;
+    position: relative;
     width: 41.66625%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -639,10 +684,11 @@ body {
     margin-left: -41.66625%;
   }
   .grid .grid-lg-4 {
+    display: block;
+    position: relative;
     width: 33.333%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -653,10 +699,11 @@ body {
     margin-left: -33.333%;
   }
   .grid .grid-lg-3 {
+    display: block;
+    position: relative;
     width: 24.99975%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -667,10 +714,11 @@ body {
     margin-left: -24.99975%;
   }
   .grid .grid-lg-2 {
+    display: block;
+    position: relative;
     width: 16.6665%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
@@ -681,10 +729,11 @@ body {
     margin-left: -16.6665%;
   }
   .grid .grid-lg-1 {
+    display: block;
+    position: relative;
     width: 8.33325%;
     margin: 0;
     padding: 0;
-    display: block;
     float: left;
     min-height: 1px;
   }
