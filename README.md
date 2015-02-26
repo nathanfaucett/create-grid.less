@@ -11,15 +11,15 @@ create-grid(@name, @grid-columns, @min-width[, @max-width])
 @import "create-grid.less";
 
 
-// columns only used when size of screen fits min max
+// columns only used when size of screen fits min max width
 .create-grid(xs, 12, 0px, 480px);
 .create-grid(sm, 12, 480px, 640px);
-.create-grid(md, 12, 640px, 800);
-.create-grid(lg, 12, 800);
+.create-grid(md, 12, 640px, 800px);
+.create-grid(lg, 12, 800px);
 
-// columns only used when if size screen fits and not overridden by large screens, like bootstrap
+// columns only used if size of screen fits and not overridden by larger query, like bootstrap
 .create-grid(xs, 12, 0px);
 .create-grid(sm, 12, 480px);
 .create-grid(md, 12, 640px);
-.create-grid(lg, 12, 800);
+.create-grid(lg, 12, 800px);
 ```
