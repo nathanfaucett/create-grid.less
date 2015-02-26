@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.create-grid-column(@name, @index) {
+.create-grid-column(@name, @index, @grid-columns) {
   .grid .grid-@{name}-@{index} {
     display: block;
     position: relative;
@@ -30,7 +30,7 @@
 .create-grid(@name, @grid-columns, @min-width, @max-width) {
   @media (max-width: @max-width) and (min-width: @min-width) {
     .loop (@index) when (@index > 0) {
-      .create-grid-column(@name, @index);
+      .create-grid-column(@name, @index, @grid-columns);
       .loop(@index - 1);
     }
 
@@ -41,7 +41,7 @@
 .create-grid(@name, @grid-columns, @min-width) {
   @media (min-width: @min-width) {
     .loop (@index) when (@index > 0) {
-      .create-grid-column(@name, @index);
+      .create-grid-column(@name, @index, @grid-columns);
       .loop(@index - 1);
     }
 
