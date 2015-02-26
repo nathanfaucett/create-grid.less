@@ -1,7 +1,20 @@
 @import "../src/index.less";
 
 
-.create-named-grid(xs, 12, 0px, 480px);
-.create-named-grid(sm, 12, 480px, 768px);
-.create-named-grid(md, 12, 768px, 960px);
-.create-named-grid(lg, 12, 960px);
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+.create-grid(xs, 12, 0px);
+.create-grid(sm, 12, 360px);
+.create-grid(md, 12, 640px);
+.create-grid(lg, 12, 800px);
+
+.test{
+  padding: 4px;
+  .inner{
+    height: 32px;
+    background: #000;
+  }
+}

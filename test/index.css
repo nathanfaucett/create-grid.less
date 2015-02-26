@@ -1,6 +1,5 @@
 .grid {
   *zoom: 1;
-  position: relative;
   display: block;
 }
 .grid:before,
@@ -11,635 +10,695 @@
 .grid:after {
   clear: both;
 }
-@media (max-width: 480px) and (min-width: 0px) {
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+@media (min-width: 0px) {
   .grid .grid-xs-12 {
-    position: relative;
-    margin: 0;
     width: 99.999%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-xs-12 {
-    margin-left: 99.999% !important;
+    margin-left: 99.999%;
   }
   .grid .pull-xs-12 {
-    margin-left: -99.999% !important;
+    margin-left: -99.999%;
   }
   .grid .grid-xs-11 {
-    position: relative;
-    margin: 0;
     width: 91.66575%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-xs-11 {
-    margin-left: 91.66575% !important;
+    margin-left: 91.66575%;
   }
   .grid .pull-xs-11 {
-    margin-left: -91.66575% !important;
+    margin-left: -91.66575%;
   }
   .grid .grid-xs-10 {
-    position: relative;
-    margin: 0;
     width: 83.3325%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-xs-10 {
-    margin-left: 83.3325% !important;
+    margin-left: 83.3325%;
   }
   .grid .pull-xs-10 {
-    margin-left: -83.3325% !important;
+    margin-left: -83.3325%;
   }
   .grid .grid-xs-9 {
-    position: relative;
-    margin: 0;
     width: 74.99925%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-xs-9 {
-    margin-left: 74.99925% !important;
+    margin-left: 74.99925%;
   }
   .grid .pull-xs-9 {
-    margin-left: -74.99925% !important;
+    margin-left: -74.99925%;
   }
   .grid .grid-xs-8 {
-    position: relative;
-    margin: 0;
     width: 66.666%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-xs-8 {
-    margin-left: 66.666% !important;
+    margin-left: 66.666%;
   }
   .grid .pull-xs-8 {
-    margin-left: -66.666% !important;
+    margin-left: -66.666%;
   }
   .grid .grid-xs-7 {
-    position: relative;
-    margin: 0;
     width: 58.33275%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-xs-7 {
-    margin-left: 58.33275% !important;
+    margin-left: 58.33275%;
   }
   .grid .pull-xs-7 {
-    margin-left: -58.33275% !important;
+    margin-left: -58.33275%;
   }
   .grid .grid-xs-6 {
-    position: relative;
-    margin: 0;
     width: 49.9995%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-xs-6 {
-    margin-left: 49.9995% !important;
+    margin-left: 49.9995%;
   }
   .grid .pull-xs-6 {
-    margin-left: -49.9995% !important;
+    margin-left: -49.9995%;
   }
   .grid .grid-xs-5 {
-    position: relative;
-    margin: 0;
     width: 41.66625%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-xs-5 {
-    margin-left: 41.66625% !important;
+    margin-left: 41.66625%;
   }
   .grid .pull-xs-5 {
-    margin-left: -41.66625% !important;
+    margin-left: -41.66625%;
   }
   .grid .grid-xs-4 {
-    position: relative;
-    margin: 0;
     width: 33.333%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-xs-4 {
-    margin-left: 33.333% !important;
+    margin-left: 33.333%;
   }
   .grid .pull-xs-4 {
-    margin-left: -33.333% !important;
+    margin-left: -33.333%;
   }
   .grid .grid-xs-3 {
-    position: relative;
-    margin: 0;
     width: 24.99975%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-xs-3 {
-    margin-left: 24.99975% !important;
+    margin-left: 24.99975%;
   }
   .grid .pull-xs-3 {
-    margin-left: -24.99975% !important;
+    margin-left: -24.99975%;
   }
   .grid .grid-xs-2 {
-    position: relative;
-    margin: 0;
     width: 16.6665%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-xs-2 {
-    margin-left: 16.6665% !important;
+    margin-left: 16.6665%;
   }
   .grid .pull-xs-2 {
-    margin-left: -16.6665% !important;
+    margin-left: -16.6665%;
   }
   .grid .grid-xs-1 {
-    position: relative;
-    margin: 0;
     width: 8.33325%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-xs-1 {
-    margin-left: 8.33325% !important;
+    margin-left: 8.33325%;
   }
   .grid .pull-xs-1 {
-    margin-left: -8.33325% !important;
+    margin-left: -8.33325%;
   }
 }
-@media (max-width: 768px) and (min-width: 480px) {
+@media (min-width: 360px) {
   .grid .grid-sm-12 {
-    position: relative;
-    margin: 0;
     width: 99.999%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-sm-12 {
-    margin-left: 99.999% !important;
+    margin-left: 99.999%;
   }
   .grid .pull-sm-12 {
-    margin-left: -99.999% !important;
+    margin-left: -99.999%;
   }
   .grid .grid-sm-11 {
-    position: relative;
-    margin: 0;
     width: 91.66575%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-sm-11 {
-    margin-left: 91.66575% !important;
+    margin-left: 91.66575%;
   }
   .grid .pull-sm-11 {
-    margin-left: -91.66575% !important;
+    margin-left: -91.66575%;
   }
   .grid .grid-sm-10 {
-    position: relative;
-    margin: 0;
     width: 83.3325%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-sm-10 {
-    margin-left: 83.3325% !important;
+    margin-left: 83.3325%;
   }
   .grid .pull-sm-10 {
-    margin-left: -83.3325% !important;
+    margin-left: -83.3325%;
   }
   .grid .grid-sm-9 {
-    position: relative;
-    margin: 0;
     width: 74.99925%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-sm-9 {
-    margin-left: 74.99925% !important;
+    margin-left: 74.99925%;
   }
   .grid .pull-sm-9 {
-    margin-left: -74.99925% !important;
+    margin-left: -74.99925%;
   }
   .grid .grid-sm-8 {
-    position: relative;
-    margin: 0;
     width: 66.666%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-sm-8 {
-    margin-left: 66.666% !important;
+    margin-left: 66.666%;
   }
   .grid .pull-sm-8 {
-    margin-left: -66.666% !important;
+    margin-left: -66.666%;
   }
   .grid .grid-sm-7 {
-    position: relative;
-    margin: 0;
     width: 58.33275%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-sm-7 {
-    margin-left: 58.33275% !important;
+    margin-left: 58.33275%;
   }
   .grid .pull-sm-7 {
-    margin-left: -58.33275% !important;
+    margin-left: -58.33275%;
   }
   .grid .grid-sm-6 {
-    position: relative;
-    margin: 0;
     width: 49.9995%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-sm-6 {
-    margin-left: 49.9995% !important;
+    margin-left: 49.9995%;
   }
   .grid .pull-sm-6 {
-    margin-left: -49.9995% !important;
+    margin-left: -49.9995%;
   }
   .grid .grid-sm-5 {
-    position: relative;
-    margin: 0;
     width: 41.66625%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-sm-5 {
-    margin-left: 41.66625% !important;
+    margin-left: 41.66625%;
   }
   .grid .pull-sm-5 {
-    margin-left: -41.66625% !important;
+    margin-left: -41.66625%;
   }
   .grid .grid-sm-4 {
-    position: relative;
-    margin: 0;
     width: 33.333%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-sm-4 {
-    margin-left: 33.333% !important;
+    margin-left: 33.333%;
   }
   .grid .pull-sm-4 {
-    margin-left: -33.333% !important;
+    margin-left: -33.333%;
   }
   .grid .grid-sm-3 {
-    position: relative;
-    margin: 0;
     width: 24.99975%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-sm-3 {
-    margin-left: 24.99975% !important;
+    margin-left: 24.99975%;
   }
   .grid .pull-sm-3 {
-    margin-left: -24.99975% !important;
+    margin-left: -24.99975%;
   }
   .grid .grid-sm-2 {
-    position: relative;
-    margin: 0;
     width: 16.6665%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-sm-2 {
-    margin-left: 16.6665% !important;
+    margin-left: 16.6665%;
   }
   .grid .pull-sm-2 {
-    margin-left: -16.6665% !important;
+    margin-left: -16.6665%;
   }
   .grid .grid-sm-1 {
-    position: relative;
-    margin: 0;
     width: 8.33325%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-sm-1 {
-    margin-left: 8.33325% !important;
+    margin-left: 8.33325%;
   }
   .grid .pull-sm-1 {
-    margin-left: -8.33325% !important;
+    margin-left: -8.33325%;
   }
 }
-@media (max-width: 960px) and (min-width: 768px) {
+@media (min-width: 640px) {
   .grid .grid-md-12 {
-    position: relative;
-    margin: 0;
     width: 99.999%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-md-12 {
-    margin-left: 99.999% !important;
+    margin-left: 99.999%;
   }
   .grid .pull-md-12 {
-    margin-left: -99.999% !important;
+    margin-left: -99.999%;
   }
   .grid .grid-md-11 {
-    position: relative;
-    margin: 0;
     width: 91.66575%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-md-11 {
-    margin-left: 91.66575% !important;
+    margin-left: 91.66575%;
   }
   .grid .pull-md-11 {
-    margin-left: -91.66575% !important;
+    margin-left: -91.66575%;
   }
   .grid .grid-md-10 {
-    position: relative;
-    margin: 0;
     width: 83.3325%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-md-10 {
-    margin-left: 83.3325% !important;
+    margin-left: 83.3325%;
   }
   .grid .pull-md-10 {
-    margin-left: -83.3325% !important;
+    margin-left: -83.3325%;
   }
   .grid .grid-md-9 {
-    position: relative;
-    margin: 0;
     width: 74.99925%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-md-9 {
-    margin-left: 74.99925% !important;
+    margin-left: 74.99925%;
   }
   .grid .pull-md-9 {
-    margin-left: -74.99925% !important;
+    margin-left: -74.99925%;
   }
   .grid .grid-md-8 {
-    position: relative;
-    margin: 0;
     width: 66.666%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-md-8 {
-    margin-left: 66.666% !important;
+    margin-left: 66.666%;
   }
   .grid .pull-md-8 {
-    margin-left: -66.666% !important;
+    margin-left: -66.666%;
   }
   .grid .grid-md-7 {
-    position: relative;
-    margin: 0;
     width: 58.33275%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-md-7 {
-    margin-left: 58.33275% !important;
+    margin-left: 58.33275%;
   }
   .grid .pull-md-7 {
-    margin-left: -58.33275% !important;
+    margin-left: -58.33275%;
   }
   .grid .grid-md-6 {
-    position: relative;
-    margin: 0;
     width: 49.9995%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-md-6 {
-    margin-left: 49.9995% !important;
+    margin-left: 49.9995%;
   }
   .grid .pull-md-6 {
-    margin-left: -49.9995% !important;
+    margin-left: -49.9995%;
   }
   .grid .grid-md-5 {
-    position: relative;
-    margin: 0;
     width: 41.66625%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-md-5 {
-    margin-left: 41.66625% !important;
+    margin-left: 41.66625%;
   }
   .grid .pull-md-5 {
-    margin-left: -41.66625% !important;
+    margin-left: -41.66625%;
   }
   .grid .grid-md-4 {
-    position: relative;
-    margin: 0;
     width: 33.333%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-md-4 {
-    margin-left: 33.333% !important;
+    margin-left: 33.333%;
   }
   .grid .pull-md-4 {
-    margin-left: -33.333% !important;
+    margin-left: -33.333%;
   }
   .grid .grid-md-3 {
-    position: relative;
-    margin: 0;
     width: 24.99975%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-md-3 {
-    margin-left: 24.99975% !important;
+    margin-left: 24.99975%;
   }
   .grid .pull-md-3 {
-    margin-left: -24.99975% !important;
+    margin-left: -24.99975%;
   }
   .grid .grid-md-2 {
-    position: relative;
-    margin: 0;
     width: 16.6665%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-md-2 {
-    margin-left: 16.6665% !important;
+    margin-left: 16.6665%;
   }
   .grid .pull-md-2 {
-    margin-left: -16.6665% !important;
+    margin-left: -16.6665%;
   }
   .grid .grid-md-1 {
-    position: relative;
-    margin: 0;
     width: 8.33325%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-md-1 {
-    margin-left: 8.33325% !important;
+    margin-left: 8.33325%;
   }
   .grid .pull-md-1 {
-    margin-left: -8.33325% !important;
+    margin-left: -8.33325%;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 800px) {
   .grid .grid-lg-12 {
-    position: relative;
-    margin: 0;
     width: 99.999%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-lg-12 {
-    margin-left: 99.999% !important;
+    margin-left: 99.999%;
   }
   .grid .pull-lg-12 {
-    margin-left: -99.999% !important;
+    margin-left: -99.999%;
   }
   .grid .grid-lg-11 {
-    position: relative;
-    margin: 0;
     width: 91.66575%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-lg-11 {
-    margin-left: 91.66575% !important;
+    margin-left: 91.66575%;
   }
   .grid .pull-lg-11 {
-    margin-left: -91.66575% !important;
+    margin-left: -91.66575%;
   }
   .grid .grid-lg-10 {
-    position: relative;
-    margin: 0;
     width: 83.3325%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-lg-10 {
-    margin-left: 83.3325% !important;
+    margin-left: 83.3325%;
   }
   .grid .pull-lg-10 {
-    margin-left: -83.3325% !important;
+    margin-left: -83.3325%;
   }
   .grid .grid-lg-9 {
-    position: relative;
-    margin: 0;
     width: 74.99925%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-lg-9 {
-    margin-left: 74.99925% !important;
+    margin-left: 74.99925%;
   }
   .grid .pull-lg-9 {
-    margin-left: -74.99925% !important;
+    margin-left: -74.99925%;
   }
   .grid .grid-lg-8 {
-    position: relative;
-    margin: 0;
     width: 66.666%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-lg-8 {
-    margin-left: 66.666% !important;
+    margin-left: 66.666%;
   }
   .grid .pull-lg-8 {
-    margin-left: -66.666% !important;
+    margin-left: -66.666%;
   }
   .grid .grid-lg-7 {
-    position: relative;
-    margin: 0;
     width: 58.33275%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-lg-7 {
-    margin-left: 58.33275% !important;
+    margin-left: 58.33275%;
   }
   .grid .pull-lg-7 {
-    margin-left: -58.33275% !important;
+    margin-left: -58.33275%;
   }
   .grid .grid-lg-6 {
-    position: relative;
-    margin: 0;
     width: 49.9995%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-lg-6 {
-    margin-left: 49.9995% !important;
+    margin-left: 49.9995%;
   }
   .grid .pull-lg-6 {
-    margin-left: -49.9995% !important;
+    margin-left: -49.9995%;
   }
   .grid .grid-lg-5 {
-    position: relative;
-    margin: 0;
     width: 41.66625%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-lg-5 {
-    margin-left: 41.66625% !important;
+    margin-left: 41.66625%;
   }
   .grid .pull-lg-5 {
-    margin-left: -41.66625% !important;
+    margin-left: -41.66625%;
   }
   .grid .grid-lg-4 {
-    position: relative;
-    margin: 0;
     width: 33.333%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-lg-4 {
-    margin-left: 33.333% !important;
+    margin-left: 33.333%;
   }
   .grid .pull-lg-4 {
-    margin-left: -33.333% !important;
+    margin-left: -33.333%;
   }
   .grid .grid-lg-3 {
-    position: relative;
-    margin: 0;
     width: 24.99975%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-lg-3 {
-    margin-left: 24.99975% !important;
+    margin-left: 24.99975%;
   }
   .grid .pull-lg-3 {
-    margin-left: -24.99975% !important;
+    margin-left: -24.99975%;
   }
   .grid .grid-lg-2 {
-    position: relative;
-    margin: 0;
     width: 16.6665%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-lg-2 {
-    margin-left: 16.6665% !important;
+    margin-left: 16.6665%;
   }
   .grid .pull-lg-2 {
-    margin-left: -16.6665% !important;
+    margin-left: -16.6665%;
   }
   .grid .grid-lg-1 {
-    position: relative;
-    margin: 0;
     width: 8.33325%;
+    margin: 0;
+    padding: 0;
+    display: block;
     float: left;
     min-height: 1px;
   }
   .grid .push-lg-1 {
-    margin-left: 8.33325% !important;
+    margin-left: 8.33325%;
   }
   .grid .pull-lg-1 {
-    margin-left: -8.33325% !important;
+    margin-left: -8.33325%;
   }
+}
+.test {
+  padding: 4px;
+}
+.test .inner {
+  height: 32px;
+  background: #000;
 }

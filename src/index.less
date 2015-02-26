@@ -3,29 +3,32 @@
 
 .grid {
   .clearfix();
-  position: relative;
   display: block;
 }
 
-.create-named-grid(@name, @grid-columns, @min-width, @max-width) {
+.create-grid-column(@name, @index) {
+  .grid .grid-@{name}-@{index} {
+    width: ((@index / @grid-columns * 99.999) + 0%);
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+    min-height: 1px;
+  }
+
+  .grid .push-@{name}-@{index} {
+    margin-left: ((@index / @grid-columns * 99.999) + 0%) * 1%;
+  }
+
+  .grid .pull-@{name}-@{index}{
+    margin-left: ((@index / @grid-columns * 99.999) + 0%) * -1%;
+  }
+}
+
+.create-grid(@name, @grid-columns, @min-width, @max-width) {
   @media (max-width: @max-width) and (min-width: @min-width) {
     .loop (@index) when (@index > 0) {
-      .grid .grid-@{name}-@{index} {
-        position: relative;
-        margin: 0;
-        width: ((@index / @grid-columns * 99.999) + 0%);
-        float: left;
-        min-height: 1px;
-      }
-
-      .grid .push-@{name}-@{index} {
-        margin-left: ((@index / @grid-columns * 99.999) + 0%) * 1% !important;
-      }
-
-      .grid .pull-@{name}-@{index}{
-        margin-left: ((@index / @grid-columns * 99.999) + 0%) * -1% !important;
-      }
-
+      .create-grid-column(@name, @index);
       .loop(@index - 1);
     }
 
@@ -33,25 +36,10 @@
   }
 }
 
-.create-named-grid(@name, @grid-columns, @min-width) {
+.create-grid(@name, @grid-columns, @min-width) {
   @media (min-width: @min-width) {
     .loop (@index) when (@index > 0) {
-      .grid .grid-@{name}-@{index} {
-        position: relative;
-        margin: 0;
-        width: ((@index / @grid-columns * 99.999) + 0%);
-        float: left;
-        min-height: 1px;
-      }
-
-      .grid .push-@{name}-@{index} {
-        margin-left: ((@index / @grid-columns * 99.999) + 0%) * 1% !important;
-      }
-
-      .grid .pull-@{name}-@{index}{
-        margin-left: ((@index / @grid-columns * 99.999) + 0%) * -1% !important;
-      }
-
+      .create-grid-column(@name, @index);
       .loop(@index - 1);
     }
 

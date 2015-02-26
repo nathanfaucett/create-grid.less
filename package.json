@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/nathanfaucett/create-grid.less.git"
   },
+  "scripts": {
+    "test": "comn_css -f test/index.less -o test/index.css -l"
+  },
   "style": "src/index.less",
   "keywords": [
     "grid",
