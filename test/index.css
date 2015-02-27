@@ -17,7 +17,7 @@ body {
   margin: 0;
 }
 @media (min-width: 0px) {
-  .grid .grid-xs-12 {
+  .grid .col-xs-12 {
     display: block;
     position: relative;
     width: 99.999%;
@@ -32,7 +32,7 @@ body {
   .grid .pull-xs-12 {
     margin-left: -99.999%;
   }
-  .grid .grid-xs-11 {
+  .grid .col-xs-11 {
     display: block;
     position: relative;
     width: 91.66575%;
@@ -47,7 +47,7 @@ body {
   .grid .pull-xs-11 {
     margin-left: -91.66575%;
   }
-  .grid .grid-xs-10 {
+  .grid .col-xs-10 {
     display: block;
     position: relative;
     width: 83.3325%;
@@ -62,7 +62,7 @@ body {
   .grid .pull-xs-10 {
     margin-left: -83.3325%;
   }
-  .grid .grid-xs-9 {
+  .grid .col-xs-9 {
     display: block;
     position: relative;
     width: 74.99925%;
@@ -77,7 +77,7 @@ body {
   .grid .pull-xs-9 {
     margin-left: -74.99925%;
   }
-  .grid .grid-xs-8 {
+  .grid .col-xs-8 {
     display: block;
     position: relative;
     width: 66.666%;
@@ -92,7 +92,7 @@ body {
   .grid .pull-xs-8 {
     margin-left: -66.666%;
   }
-  .grid .grid-xs-7 {
+  .grid .col-xs-7 {
     display: block;
     position: relative;
     width: 58.33275%;
@@ -107,7 +107,7 @@ body {
   .grid .pull-xs-7 {
     margin-left: -58.33275%;
   }
-  .grid .grid-xs-6 {
+  .grid .col-xs-6 {
     display: block;
     position: relative;
     width: 49.9995%;
@@ -122,7 +122,7 @@ body {
   .grid .pull-xs-6 {
     margin-left: -49.9995%;
   }
-  .grid .grid-xs-5 {
+  .grid .col-xs-5 {
     display: block;
     position: relative;
     width: 41.66625%;
@@ -137,7 +137,7 @@ body {
   .grid .pull-xs-5 {
     margin-left: -41.66625%;
   }
-  .grid .grid-xs-4 {
+  .grid .col-xs-4 {
     display: block;
     position: relative;
     width: 33.333%;
@@ -152,7 +152,7 @@ body {
   .grid .pull-xs-4 {
     margin-left: -33.333%;
   }
-  .grid .grid-xs-3 {
+  .grid .col-xs-3 {
     display: block;
     position: relative;
     width: 24.99975%;
@@ -167,7 +167,7 @@ body {
   .grid .pull-xs-3 {
     margin-left: -24.99975%;
   }
-  .grid .grid-xs-2 {
+  .grid .col-xs-2 {
     display: block;
     position: relative;
     width: 16.6665%;
@@ -182,7 +182,7 @@ body {
   .grid .pull-xs-2 {
     margin-left: -16.6665%;
   }
-  .grid .grid-xs-1 {
+  .grid .col-xs-1 {
     display: block;
     position: relative;
     width: 8.33325%;
@@ -198,13 +198,18 @@ body {
     margin-left: -8.33325%;
   }
 }
+@media (min-width: 0px) {
+  .grid .hidden-min-xs {
+    display: none;
+  }
+}
 @media (max-width: 0px) {
-  .grid .hidden-xs {
+  .grid .hidden-max-xs {
     display: none;
   }
 }
 @media (min-width: 480px) {
-  .grid .grid-sm-12 {
+  .grid .col-sm-12 {
     display: block;
     position: relative;
     width: 99.999%;
@@ -219,7 +224,7 @@ body {
   .grid .pull-sm-12 {
     margin-left: -99.999%;
   }
-  .grid .grid-sm-11 {
+  .grid .col-sm-11 {
     display: block;
     position: relative;
     width: 91.66575%;
@@ -234,7 +239,7 @@ body {
   .grid .pull-sm-11 {
     margin-left: -91.66575%;
   }
-  .grid .grid-sm-10 {
+  .grid .col-sm-10 {
     display: block;
     position: relative;
     width: 83.3325%;
@@ -249,7 +254,7 @@ body {
   .grid .pull-sm-10 {
     margin-left: -83.3325%;
   }
-  .grid .grid-sm-9 {
+  .grid .col-sm-9 {
     display: block;
     position: relative;
     width: 74.99925%;
@@ -264,7 +269,7 @@ body {
   .grid .pull-sm-9 {
     margin-left: -74.99925%;
   }
-  .grid .grid-sm-8 {
+  .grid .col-sm-8 {
     display: block;
     position: relative;
     width: 66.666%;
@@ -279,7 +284,7 @@ body {
   .grid .pull-sm-8 {
     margin-left: -66.666%;
   }
-  .grid .grid-sm-7 {
+  .grid .col-sm-7 {
     display: block;
     position: relative;
     width: 58.33275%;
@@ -294,7 +299,7 @@ body {
   .grid .pull-sm-7 {
     margin-left: -58.33275%;
   }
-  .grid .grid-sm-6 {
+  .grid .col-sm-6 {
     display: block;
     position: relative;
     width: 49.9995%;
@@ -309,7 +314,7 @@ body {
   .grid .pull-sm-6 {
     margin-left: -49.9995%;
   }
-  .grid .grid-sm-5 {
+  .grid .col-sm-5 {
     display: block;
     position: relative;
     width: 41.66625%;
@@ -324,7 +329,7 @@ body {
   .grid .pull-sm-5 {
     margin-left: -41.66625%;
   }
-  .grid .grid-sm-4 {
+  .grid .col-sm-4 {
     display: block;
     position: relative;
     width: 33.333%;
@@ -339,7 +344,7 @@ body {
   .grid .pull-sm-4 {
     margin-left: -33.333%;
   }
-  .grid .grid-sm-3 {
+  .grid .col-sm-3 {
     display: block;
     position: relative;
     width: 24.99975%;
@@ -354,7 +359,7 @@ body {
   .grid .pull-sm-3 {
     margin-left: -24.99975%;
   }
-  .grid .grid-sm-2 {
+  .grid .col-sm-2 {
     display: block;
     position: relative;
     width: 16.6665%;
@@ -369,7 +374,7 @@ body {
   .grid .pull-sm-2 {
     margin-left: -16.6665%;
   }
-  .grid .grid-sm-1 {
+  .grid .col-sm-1 {
     display: block;
     position: relative;
     width: 8.33325%;
@@ -385,13 +390,18 @@ body {
     margin-left: -8.33325%;
   }
 }
+@media (min-width: 480px) {
+  .grid .hidden-min-sm {
+    display: none;
+  }
+}
 @media (max-width: 480px) {
-  .grid .hidden-sm {
+  .grid .hidden-max-sm {
     display: none;
   }
 }
 @media (min-width: 768px) {
-  .grid .grid-md-12 {
+  .grid .col-md-12 {
     display: block;
     position: relative;
     width: 99.999%;
@@ -406,7 +416,7 @@ body {
   .grid .pull-md-12 {
     margin-left: -99.999%;
   }
-  .grid .grid-md-11 {
+  .grid .col-md-11 {
     display: block;
     position: relative;
     width: 91.66575%;
@@ -421,7 +431,7 @@ body {
   .grid .pull-md-11 {
     margin-left: -91.66575%;
   }
-  .grid .grid-md-10 {
+  .grid .col-md-10 {
     display: block;
     position: relative;
     width: 83.3325%;
@@ -436,7 +446,7 @@ body {
   .grid .pull-md-10 {
     margin-left: -83.3325%;
   }
-  .grid .grid-md-9 {
+  .grid .col-md-9 {
     display: block;
     position: relative;
     width: 74.99925%;
@@ -451,7 +461,7 @@ body {
   .grid .pull-md-9 {
     margin-left: -74.99925%;
   }
-  .grid .grid-md-8 {
+  .grid .col-md-8 {
     display: block;
     position: relative;
     width: 66.666%;
@@ -466,7 +476,7 @@ body {
   .grid .pull-md-8 {
     margin-left: -66.666%;
   }
-  .grid .grid-md-7 {
+  .grid .col-md-7 {
     display: block;
     position: relative;
     width: 58.33275%;
@@ -481,7 +491,7 @@ body {
   .grid .pull-md-7 {
     margin-left: -58.33275%;
   }
-  .grid .grid-md-6 {
+  .grid .col-md-6 {
     display: block;
     position: relative;
     width: 49.9995%;
@@ -496,7 +506,7 @@ body {
   .grid .pull-md-6 {
     margin-left: -49.9995%;
   }
-  .grid .grid-md-5 {
+  .grid .col-md-5 {
     display: block;
     position: relative;
     width: 41.66625%;
@@ -511,7 +521,7 @@ body {
   .grid .pull-md-5 {
     margin-left: -41.66625%;
   }
-  .grid .grid-md-4 {
+  .grid .col-md-4 {
     display: block;
     position: relative;
     width: 33.333%;
@@ -526,7 +536,7 @@ body {
   .grid .pull-md-4 {
     margin-left: -33.333%;
   }
-  .grid .grid-md-3 {
+  .grid .col-md-3 {
     display: block;
     position: relative;
     width: 24.99975%;
@@ -541,7 +551,7 @@ body {
   .grid .pull-md-3 {
     margin-left: -24.99975%;
   }
-  .grid .grid-md-2 {
+  .grid .col-md-2 {
     display: block;
     position: relative;
     width: 16.6665%;
@@ -556,7 +566,7 @@ body {
   .grid .pull-md-2 {
     margin-left: -16.6665%;
   }
-  .grid .grid-md-1 {
+  .grid .col-md-1 {
     display: block;
     position: relative;
     width: 8.33325%;
@@ -572,13 +582,18 @@ body {
     margin-left: -8.33325%;
   }
 }
+@media (min-width: 768px) {
+  .grid .hidden-min-md {
+    display: none;
+  }
+}
 @media (max-width: 768px) {
-  .grid .hidden-md {
+  .grid .hidden-max-md {
     display: none;
   }
 }
 @media (min-width: 960px) {
-  .grid .grid-lg-12 {
+  .grid .col-lg-12 {
     display: block;
     position: relative;
     width: 99.999%;
@@ -593,7 +608,7 @@ body {
   .grid .pull-lg-12 {
     margin-left: -99.999%;
   }
-  .grid .grid-lg-11 {
+  .grid .col-lg-11 {
     display: block;
     position: relative;
     width: 91.66575%;
@@ -608,7 +623,7 @@ body {
   .grid .pull-lg-11 {
     margin-left: -91.66575%;
   }
-  .grid .grid-lg-10 {
+  .grid .col-lg-10 {
     display: block;
     position: relative;
     width: 83.3325%;
@@ -623,7 +638,7 @@ body {
   .grid .pull-lg-10 {
     margin-left: -83.3325%;
   }
-  .grid .grid-lg-9 {
+  .grid .col-lg-9 {
     display: block;
     position: relative;
     width: 74.99925%;
@@ -638,7 +653,7 @@ body {
   .grid .pull-lg-9 {
     margin-left: -74.99925%;
   }
-  .grid .grid-lg-8 {
+  .grid .col-lg-8 {
     display: block;
     position: relative;
     width: 66.666%;
@@ -653,7 +668,7 @@ body {
   .grid .pull-lg-8 {
     margin-left: -66.666%;
   }
-  .grid .grid-lg-7 {
+  .grid .col-lg-7 {
     display: block;
     position: relative;
     width: 58.33275%;
@@ -668,7 +683,7 @@ body {
   .grid .pull-lg-7 {
     margin-left: -58.33275%;
   }
-  .grid .grid-lg-6 {
+  .grid .col-lg-6 {
     display: block;
     position: relative;
     width: 49.9995%;
@@ -683,7 +698,7 @@ body {
   .grid .pull-lg-6 {
     margin-left: -49.9995%;
   }
-  .grid .grid-lg-5 {
+  .grid .col-lg-5 {
     display: block;
     position: relative;
     width: 41.66625%;
@@ -698,7 +713,7 @@ body {
   .grid .pull-lg-5 {
     margin-left: -41.66625%;
   }
-  .grid .grid-lg-4 {
+  .grid .col-lg-4 {
     display: block;
     position: relative;
     width: 33.333%;
@@ -713,7 +728,7 @@ body {
   .grid .pull-lg-4 {
     margin-left: -33.333%;
   }
-  .grid .grid-lg-3 {
+  .grid .col-lg-3 {
     display: block;
     position: relative;
     width: 24.99975%;
@@ -728,7 +743,7 @@ body {
   .grid .pull-lg-3 {
     margin-left: -24.99975%;
   }
-  .grid .grid-lg-2 {
+  .grid .col-lg-2 {
     display: block;
     position: relative;
     width: 16.6665%;
@@ -743,7 +758,7 @@ body {
   .grid .pull-lg-2 {
     margin-left: -16.6665%;
   }
-  .grid .grid-lg-1 {
+  .grid .col-lg-1 {
     display: block;
     position: relative;
     width: 8.33325%;
@@ -759,8 +774,13 @@ body {
     margin-left: -8.33325%;
   }
 }
+@media (min-width: 960px) {
+  .grid .hidden-min-lg {
+    display: none;
+  }
+}
 @media (max-width: 960px) {
-  .grid .hidden-lg {
+  .grid .hidden-max-lg {
     display: none;
   }
 }

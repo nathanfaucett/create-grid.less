@@ -8,7 +8,7 @@
 }
 
 .create-grid-column(@name, @index, @grid-columns) {
-  .grid .grid-@{name}-@{index} {
+  .col-@{name}-@{index} {
     display: block;
     position: relative;
     width: ((@index / @grid-columns * 99.999) + 0%);
@@ -18,42 +18,50 @@
     min-height: 1px;
   }
 
-  .grid .push-@{name}-@{index} {
+  .push-@{name}-@{index} {
     margin-left: ((@index / @grid-columns * 99.999) + 0%) * 1%;
   }
 
-  .grid .pull-@{name}-@{index}{
+  .pull-@{name}-@{index}{
     margin-left: ((@index / @grid-columns * 99.999) + 0%) * -1%;
+  }
+}
+
+.create-hidden(@name, @min-width, @max-width) {
+  @media (min-width: @min-width) {
+    .grid .hidden-min-@{name} {
+      display: none;
+    }
+  }
+  @media (max-width: @max-width) {
+    .grid .hidden-max-@{name} {
+      display: none;
+    }
   }
 }
 
 .create-grid(@name, @grid-columns, @min-width, @max-width) {
   @media (max-width: @max-width) and (min-width: @min-width) {
-    .loop (@index) when (@index > 0) {
-      .create-grid-column(@name, @index, @grid-columns);
-      .loop(@index - 1);
-    }
-    .loop(@grid-columns);
-  }
-  @media (max-width: @max-width) and (min-width: @min-width) {
-    .grid .hidden-@{name} {
-      display: none;
+    .grid{
+      .loop (@index) when (@index > 0) {
+        .create-grid-column(@name, @index, @grid-columns);
+        .loop(@index - 1);
+      }
+      .loop(@grid-columns);
     }
   }
+  .create-hidden(@name, @min-width, @max-width)
 }
 
-.create-grid(@name, @grid-columns, @min-width) {
-  @media (min-width: @min-width) {
-    .loop (@index) when (@index > 0) {
-      .create-grid-column(@name, @index, @grid-columns);
-      .loop(@index - 1);
-    }
-    .loop(@grid-columns);
-  }
-
-  @media (max-width: @min-width) {
-    .grid .hidden-@{name} {
-      display: none;
+.create-grid(@name, @grid-columns, @width) {
+  @media (min-width: @width) {
+    .grid{
+      .loop (@index) when (@index > 0) {
+        .create-grid-column(@name, @index, @grid-columns);
+        .loop(@index - 1);
+      }
+      .loop(@grid-columns);
     }
   }
+  .create-hidden(@name, @width, @width)
 }
