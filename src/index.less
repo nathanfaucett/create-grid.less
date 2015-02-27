@@ -27,41 +27,57 @@
   }
 }
 
+.create-grid(@name, @grid-columns, @min-width, @max-width) {
+  @media (max-width: (@max-width * 1px)) and (min-width: (@min-width * 1px)) {
+    .grid{
+      .loop (@index) when (@index > 0) {
+        .create-grid-column(@name, @index, @grid-columns);
+        .loop(@index - 1);
+      }
+      .loop(@grid-columns);
+    }
+  }
+}
+
+.create-grid(@name, @grid-columns, @width) {
+  @media (min-width: (@width * 1px)) {
+    .grid{
+      .loop (@index) when (@index > 0) {
+        .create-grid-column(@name, @index, @grid-columns);
+        .loop(@index - 1);
+      }
+      .loop(@grid-columns);
+    }
+  }
+}
+
 .create-hidden(@name, @min-width, @max-width) {
-  @media (min-width: @min-width) {
-    .grid .hidden-min-@{name} {
+  @media (max-width: @max-width) and (min-width: @min-width) {
+    .grid .hidden-@{name} {
       display: none;
     }
   }
-  @media (max-width: @max-width) {
+  @media (max-width: (@max-width * 1px)) {
     .grid .hidden-max-@{name} {
       display: none;
     }
   }
-}
-
-.create-grid(@name, @grid-columns, @min-width, @max-width) {
-  @media (max-width: @max-width) and (min-width: @min-width) {
-    .grid{
-      .loop (@index) when (@index > 0) {
-        .create-grid-column(@name, @index, @grid-columns);
-        .loop(@index - 1);
-      }
-      .loop(@grid-columns);
+  @media (min-width: (@min-width - 1px)) {
+    .grid .hidden-min-@{name} {
+      display: none;
     }
   }
-  .create-hidden(@name, @min-width, @max-width)
 }
 
-.create-grid(@name, @grid-columns, @width) {
-  @media (min-width: @width) {
-    .grid{
-      .loop (@index) when (@index > 0) {
-        .create-grid-column(@name, @index, @grid-columns);
-        .loop(@index - 1);
-      }
-      .loop(@grid-columns);
+.create-hidden(@name, @width) {
+  @media (max-width: (@width * 1px)) {
+    .grid .hidden-max-@{name} {
+      display: none;
     }
   }
-  .create-hidden(@name, @width, @width)
+  @media (min-width: (@width - 1px)) {
+    .grid .hidden-min-@{name}, .grid .hidden-@{name} {
+      display: none;
+    }
+  }
 }
