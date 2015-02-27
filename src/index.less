@@ -33,8 +33,12 @@
       .create-grid-column(@name, @index, @grid-columns);
       .loop(@index - 1);
     }
-
     .loop(@grid-columns);
+  }
+  @media (max-width: @max-width) and (min-width: @min-width) {
+    .grid .hidden-@{name} {
+      display: none;
+    }
   }
 }
 
@@ -44,7 +48,12 @@
       .create-grid-column(@name, @index, @grid-columns);
       .loop(@index - 1);
     }
-
     .loop(@grid-columns);
+  }
+
+  @media (max-width: @min-width) {
+    .grid .hidden-@{name} {
+      display: none;
+    }
   }
 }
