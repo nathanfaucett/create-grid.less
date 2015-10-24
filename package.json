@@ -18,7 +18,7 @@
     "create-grid.css"
   ],
   "author": "Nathan Faucett",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
     "clearfix.less": "nathanfaucett/clearfix.less"
