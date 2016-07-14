@@ -1,5 +1,5 @@
 {
-  "name": "create-grid.less",
+  "name": "@nathanfaucett/create-grid.less",
   "version": "0.0.1",
   "description": "create grid helper functions for less",
   "repository": {
@@ -21,6 +21,6 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "clearfix.less": "nathanfaucett/clearfix.less"
+    "@nathanfaucett/clearfix.less": "^0.0.1"
   }
 }
